@@ -1,11 +1,8 @@
-# Homestead Release
+# Developers Release
 
 [![Build Status][travis-image]][travis-url] [![dependency status][dep-image]][dep-url]
 
-This repository contains the Homestead Release of the [ethereum.org](https://ethereum.org/) website.
-
-
-![Screenshot](https://cloud.githubusercontent.com/assets/112898/15186824/f2c9ba56-1774-11e6-944b-8309c6b9114e.png "Screenshot")
+This repository contains the [Vapory Developers](https://developers.vapory.org/) website.
 
 ## Prerequisite
 * node
@@ -17,8 +14,8 @@ Make sure you have node.js and npm installed.
 Clone the repository and install the dependencies
 
 ```bash
-git clone https://github.com/ethereum/ethereum-org
-cd ethereum-org
+git clone https://github.com/vaporyco/vaporyco.github.io
+cd vaporyco.github.io
 npm install
 npm install -g grunt-cli
 ```
