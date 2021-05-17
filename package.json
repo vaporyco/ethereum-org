@@ -1,6 +1,6 @@
 {
-  "name": "ethereum.org",
-  "description": "Ethereum website",
+  "name": "developers.vapory.org",
+  "description": "Vapory Developers Website",
   "version": "2.0.1",
   "private": true,
   "engines": {
@@ -23,11 +23,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/alexvandesande/ethereum-org"
+    "url": "https://github.com/vaporyco/vaporyco.github.io"
   },
-  "homepage": "https://github.com/cubedro/frontier.ethereum.org",
+  "homepage": "https://developers.vapory.org",
   "bugs": {
-    "url": "https://github.com/cubedro/frontier.ethereum.org/issues"
+    "url": "https://github.com/vaporyco/vaporyco.github.io/issues"
   },
   "authors": [
     {
