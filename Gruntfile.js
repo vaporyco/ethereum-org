@@ -165,6 +165,10 @@ module.exports = function(grunt) {
 					{
 						src: 'public/js/jquery-1.11.2.min.map',
 						dest: 'dist/js/jquery-1.11.2.min.map'
+					},
+					{
+						src: 'public/CNAME',
+						dest: 'dist/CNAME'
 					}
 				]
 			}

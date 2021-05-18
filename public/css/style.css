@@ -590,7 +590,7 @@ div.scrollme.row.introduction {
 	padding: 10px 40px;
 	font-size: 14px;
 	z-index: 45;
-	background-image: url("../images/diamond-icon.png");
+	background-image: url("../images/vapory-icon.png");
 	background-size: 19px 30px;
 	background-repeat: no-repeat;
 	background-position: 10px center;
@@ -1101,7 +1101,7 @@ div#donate_inst {
 
 @media only screen and (-webkit-min-device-pixel-ratio: 2) {
 	.breadcrumb {
-		background-image: url("../images/diamond-icon@2x.png");
+		background-image: url("../images/vapory-icon@2x.png");
 	}
 
 	.recipe {
