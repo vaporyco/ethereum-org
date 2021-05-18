@@ -2,7 +2,7 @@ var src = 'public/';
 var dest = 'dist/';
 
 var app = [
-	'public/js/ether-checker.js',
+	'public/js/vapor-checker.js',
 	'public/js/script.js'
 ];
 
@@ -87,7 +87,7 @@ module.exports = function(grunt) {
 						'dist/dao.html': 'views/dao.pug'
 					},
 					{
-						'dist/ether.html': 'views/ether.pug'
+						'dist/vapor.html': 'views/vapor.pug'
 					},
 					{
 						'dist/cli.html': 'views/cli.pug'

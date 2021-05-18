@@ -1296,25 +1296,25 @@ figure.geth-console {
 	min-height: 275px;
 }
 
-figure.ethereum-explain {
+figure.vapory-explain {
 	width: 100%;
 	height: 275px;
 	position: absolute;
 }
 
-figure.ethereum-explain .explain-01 {
+figure.vapory-explain .explain-01 {
 	background-image: url("../images/explain-01.gif");
 }
 
-figure.ethereum-explain .explain-02 {
+figure.vapory-explain .explain-02 {
 	background-image: url("../images/explain-02.png");
 }
 
-figure.ethereum-explain .explain-02b {
+figure.vapory-explain .explain-02b {
 	background-image: url("../images/explain-02b.gif");
 }
 
-figure.ethereum-explain .explain-03 {
+figure.vapory-explain .explain-03 {
 	background-image: url("../images/explain-03.gif");
 }
 
@@ -1574,21 +1574,21 @@ p.cookie_pol {
   ether.pug
   ======================================== */
 
-.ether-tutorial#tutorial-start {
+.vapor-tutorial#tutorial-start {
 	padding: 100px;
 }
 
-.ether-checker,
-.ether-checker input,
-.main-tutorial.ether-checker h3 {
+.vapor-checker,
+.vapor-checker input,
+.main-tutorial.vapor-checker h3 {
 	margin: 0 auto;
 	text-align: center;
 	max-width: none;
 }
 
-.main-tutorial.ether-checker h2,
-.main-tutorial.ether-checker h3,
-.ether-checker input {
+.main-tutorial.vapor-checker h2,
+.main-tutorial.vapor-checker h3,
+.vapor-checker input {
 	display: block;
 	margin: 10px auto;
 	padding: 10px;
@@ -1598,7 +1598,7 @@ p.cookie_pol {
 	float: none;
 }
 
-.main-tutorial.ether-checker h2 {
+.main-tutorial.vapor-checker h2 {
 	padding: 0;
 }
 

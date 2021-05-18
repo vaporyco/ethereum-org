@@ -1,12 +1,12 @@
 
 function showBalance(acc){
-  if(acc) alert(numeral(acc.balance).divide(1e18).format("0,0.00")+ " ETH");
+  if(acc) alert(numeral(acc.balance).divide(1e18).format("0,0.00")+ " VAP");
 }
 
 (function(){
 
   var accounts = null;
-  var $checkForm = $("#ether-checker");
+  var $checkForm = $("#vapor-checker");
 
   $checkForm.submit(function(e){
     e.preventDefault();

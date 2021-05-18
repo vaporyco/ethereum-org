@@ -1,0 +1,62 @@
+extends layout
+
+block vars
+  - var title='What is Vapor'
+  - var url='vapor'
+  - var image='vapor'
+
+block content
+  include mixins/recipes.pug
+
+  .breadcrumb.animateme(data-when="enter", data-from="1", data-to="0.8", data-opacity="0", data-translatey="-20")
+    a(href="/").index Vapory 
+    strong » Vapor
+
+  div#tutorial-start.main-tutorial.vapor-tutorial.inner-header.inner-page.even
+    .container
+      .row
+        .col-md-6.tutorial.scrollme
+          +vaporFigure
+
+        .col-md-6.tutorial.scrollme
+          .header-title
+            h2.animateme(data-when="exit", data-from="0", data-to="1", data-translatey="400", data-easing="linear") Vapor
+            h3.animateme(data-when="exit", data-from="0", data-to="0.5", data-translatey="200", data-opacity="0", data-easing="linear")  The crypto-fuel for the Vapory network
+
+  .main-tutorial.inner-tutorial.vapor-tutorial
+    .container
+      .row
+        .col-md-12
+          h2 What is Vapor?
+
+          p Vapor is a necessary element — a fuel — for operating the distributed application platform Vapory. It is a form of payment made by the clients of the platform to the machines executing the requested operations. To put it another way, vapor is the incentive ensuring that developers write quality applications (wasteful code costs more), and that the network remains healthy (people are compensated for their contributed resources).
+
+          p
+            strong If you just want to test the technology, you probably don't need real vapor. 
+              a(href='https://github.com/ethereum/mist/releases/latest') Download the latest Wallet app 
+              | and switch to the Test Network
+
+
+  .main-tutorial.vapor-checker.even#balance
+    .container
+      .row
+        .col-md-12
+          h2 Did you buy vapor during the presale?
+          h3 Check your vapor presale balance safely here:
+          form#vapor-checker
+            input(type="text" name="address" placeholder="Vapor address")
+            input(class="button btn btn-blue" type="submit" value="Check your balance")
+
+
+  .main-tutorial.inner-tutorial.vapor-tutorial
+    .container
+      .row
+        .col-md-12
+          include:markdown-it content/vapor.md
+          a.button.small(href='https://github.com/vaporyco/vaporyco.github.com/edit/master/views/content/vapor.md') Improve this page
+
+  .main-tutorial.even
+    .container
+      .row
+        .col-md-12.tutorial
+            +gethRecipe("What's next?")
