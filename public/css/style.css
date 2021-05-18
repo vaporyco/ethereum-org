@@ -525,7 +525,7 @@ div.scrollme.row.introduction {
 		display: none;
 	}
 
-	figure.ethereum-logo {
+	figure.vapory-logo {
 		height: 140px;
 	}
 
@@ -1533,9 +1533,9 @@ figure.swarm .swarm-04 {
 	background-image: url("../images/swarm-04.png");
 }
 
-figure.ethereum-logo {
+figure.vapory-logo {
 	display: block;
-	background-image: url("../images/ethereum-logo.png");
+	background-image: url("../images/vapory-logo.png");
 	max-width: 275px;
 	height: 287px;
 	margin: 0 auto;
